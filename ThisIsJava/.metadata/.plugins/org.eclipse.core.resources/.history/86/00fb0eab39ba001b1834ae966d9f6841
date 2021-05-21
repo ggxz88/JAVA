@@ -1,0 +1,13 @@
+package chap02.section02;
+
+public class FloatDoubleExample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		// 실수값 저장
+		double var1 = 3.14;
+		//float var2 = 3.14;		// 컴파일 에러(Type mismatch)
+		float var3 = 3.14F;
+	}
+
+}
