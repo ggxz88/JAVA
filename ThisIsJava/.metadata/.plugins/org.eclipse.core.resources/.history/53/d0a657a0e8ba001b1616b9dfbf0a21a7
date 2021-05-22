@@ -1,0 +1,27 @@
+package chap03.section04;
+
+public class CheckOverflowExample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		try {
+			int result = 
+		}
+	}
+	
+	public static int safeAdd(int left, int right) {
+		if (right > 0) {
+			if (left > (Integer.MAX_VALUE - right)) {
+				throw new ArithmeticException("오버플로우 발생");
+			}
+		}
+		else {
+			if (left < (Integer.MAX_VALUE - right)) {
+				throw new ArithmeticException("오버플로우 발생");
+			}
+		}
+		
+		return left +right;
+	}
+
+}
