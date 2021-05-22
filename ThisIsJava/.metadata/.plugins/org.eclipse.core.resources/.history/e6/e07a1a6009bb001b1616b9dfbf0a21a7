@@ -1,0 +1,12 @@
+package chap03.section04;
+
+public class StringEqualsExample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String strVar1 = "Ω≈πŒ√∂";
+		String strVar2 = "Ω≈πŒ√∂";
+		Strign strVar3 = new String("Ω≈πŒ√∂");
+	}
+
+}

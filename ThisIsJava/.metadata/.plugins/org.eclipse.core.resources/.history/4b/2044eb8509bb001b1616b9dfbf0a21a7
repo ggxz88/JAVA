@@ -1,0 +1,14 @@
+package chap03.section04;
+
+public class StringEqualsExample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String strVar1 = "Ω≈πŒ√∂";
+		String strVar2 = "Ω≈πŒ√∂";
+		String strVar3 = new String("Ω≈πŒ√∂");
+		
+		System.out.printnln(strVar1 == strVar2);
+	}
+
+}
