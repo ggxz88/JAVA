@@ -1,0 +1,10 @@
+package chap04.section03;
+
+public class ForMulticationTableExample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,19 @@
+package chap04.section03;
+
+public class WhileSumFrom1To10Example {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int sum = 0;
+		
+		int i = 1;
+		
+		while (i <= 100) {
+			sum += i;
+			i++;
+		}
+		
+		System.out.println(sum);
+	}
+
+}

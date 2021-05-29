@@ -16,7 +16,6 @@ public class SwitchNoBreakCaseExample {
 			System.out.println("업무");
 		default:
 			System.out.println("외근");
-			
 		}
 	}
 
