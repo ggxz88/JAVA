@@ -1,0 +1,8 @@
+package chap05.section07;
+
+public class Snippet {
+	for(int i = 0; i < newIntArray.length; i++) {
+				System.out.println(newIntArray[i] + ", ");
+			}
+}
+

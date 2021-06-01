@@ -1,0 +1,11 @@
+package chap05.section06;
+
+public class ArrayCopyExample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String[] oldStrArray = { "java", "array", "copy" };
+		String[] newStrArray = new String[5];
+	}
+
+}

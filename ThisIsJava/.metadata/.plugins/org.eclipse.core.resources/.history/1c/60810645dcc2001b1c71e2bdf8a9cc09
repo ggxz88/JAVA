@@ -1,0 +1,13 @@
+package chap05.section07;
+
+public class EnumMethodExample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//name() ¸Þ¼Òµå
+		Week today = Week.SUNDAY;
+		String name = today.name();
+		System.out.println(name);
+	}
+
+}
