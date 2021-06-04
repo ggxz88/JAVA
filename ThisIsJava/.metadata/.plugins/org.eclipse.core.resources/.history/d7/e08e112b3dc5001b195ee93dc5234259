@@ -1,0 +1,12 @@
+package chap06.section07;
+
+public class Korean {
+	String nation = "¥Î«—πŒ±π";
+	String name;
+	String ssn;
+	
+	public Korean(String nation, String name, String ssn) {
+		this.name = name;
+		this.ssn = ssn;
+	}
+}

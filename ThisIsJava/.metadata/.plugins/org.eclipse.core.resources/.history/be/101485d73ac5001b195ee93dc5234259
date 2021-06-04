@@ -1,0 +1,10 @@
+package chap06.section06;
+
+public class FieldInitValue {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
