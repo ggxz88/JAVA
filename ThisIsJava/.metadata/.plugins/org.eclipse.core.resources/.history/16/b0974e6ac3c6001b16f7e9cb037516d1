@@ -1,0 +1,9 @@
+package chap06.section15;
+
+import java.lang.annotation.RetentionPolicy;
+
+@Target({ElementType.METHOD})
+@Retention(RetentionPolicy.RUNTIME)
+public @interface PrintAnnotation {
+	
+}

@@ -1,0 +1,4 @@
+package chap06.section13;
+
+class A { //default 접근 제한
+}

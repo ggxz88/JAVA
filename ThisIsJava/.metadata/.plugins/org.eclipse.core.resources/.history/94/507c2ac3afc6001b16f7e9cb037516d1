@@ -1,0 +1,8 @@
+package chap06.section11;
+
+public class Person {
+	final String nation = "Korea";
+	final String ssn;
+	String name;
+	
+}

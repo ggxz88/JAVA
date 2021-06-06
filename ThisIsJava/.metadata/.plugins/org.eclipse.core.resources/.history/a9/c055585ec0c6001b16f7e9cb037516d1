@@ -1,0 +1,5 @@
+package chap06.section13.constructor_access.package2;
+
+public class C {
+
+}

@@ -1,0 +1,13 @@
+package chap06.section15;
+
+import java.lang.reflect.Method;
+
+public class PrintAnnotationExample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//Service 클래스로부터 메소드 정보를 얻음
+		Method[] declareMethods = Service.class.getDeclaredMethods(); //Service 클래스에 선언된 메소드 얻기(리플렉션)
+	}
+
+}

@@ -1,0 +1,6 @@
+package chap06.section13.package2;
+
+public class C {
+	//A a; // 패키지가 다름
+	B b;
+}

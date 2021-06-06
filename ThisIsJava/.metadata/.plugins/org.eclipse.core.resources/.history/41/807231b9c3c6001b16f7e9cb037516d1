@@ -1,0 +1,8 @@
+package chap06.section15;
+
+public class Service {
+	@PrintAnnotation
+	public void method1() {
+		System.out.println("실행 내용1");
+	}
+}

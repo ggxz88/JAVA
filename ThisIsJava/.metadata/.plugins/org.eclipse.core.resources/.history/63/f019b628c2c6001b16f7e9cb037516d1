@@ -1,0 +1,10 @@
+package chap06.section13.field_method_access.package2;
+
+public class Car {
+	private int speed;
+	private boolean stop;
+	
+	public int getSpeed() {
+		return speed;
+	}
+}
