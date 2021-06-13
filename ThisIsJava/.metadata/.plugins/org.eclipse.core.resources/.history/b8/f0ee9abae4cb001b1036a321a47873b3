@@ -1,0 +1,10 @@
+package chap07.section02;
+
+public class DmbCellPhoneExample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		DmbCellPhone dmbCellPhone = new DmbCellPhone("자바폰", "검정", 10)
+	}
+
+}

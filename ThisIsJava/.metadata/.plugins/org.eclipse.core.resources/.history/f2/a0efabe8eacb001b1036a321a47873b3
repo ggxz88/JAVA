@@ -1,0 +1,18 @@
+package chap07.section07;
+
+class A {}
+
+class B extends A {}
+class C extends A {}
+
+class D extends B {}
+class E extends C {}
+
+public class PromotionExample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
