@@ -1,0 +1,13 @@
+package chap07.section07;
+
+public class HankookTire extends Tire {
+
+	public HankookTire(String location, int maxRotation) {
+		super(location, maxRotation);
+	}
+	
+	@Override
+	public boolean roll() {
+		++
+	}
+}

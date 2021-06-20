@@ -1,0 +1,11 @@
+package chap07.section07.casting;
+
+public class ChildExample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Parent parent = new Child();	// 자동 타입 변환
+		parent.field1 = "data1";
+	}
+
+}
