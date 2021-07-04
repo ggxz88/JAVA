@@ -1,0 +1,9 @@
+package chap08.section03;
+
+public class SmartTelevision implements RemoteControl, Searchable {
+	private int volume;
+	
+	public void turnOn() {
+		System.out.println("TV¸¦ ÄÕ´Ï´Ù.")
+	}
+}
