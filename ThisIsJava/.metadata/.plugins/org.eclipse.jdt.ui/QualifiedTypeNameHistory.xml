@@ -13,4 +13,7 @@
 <fullyQualifiedTypeName name="java.lang.reflect.Method"/>
 <fullyQualifiedTypeName name="java.lang.System"/>
 <fullyQualifiedTypeName name="chap07.section06.package1.A"/>
+<fullyQualifiedTypeName name="chap08.section02.RemoteControl"/>
+<fullyQualifiedTypeName name="chap08.section03.Television"/>
+<fullyQualifiedTypeName name="chap08.section03.Audio"/>
 </qualifiedTypeNameHistroy>

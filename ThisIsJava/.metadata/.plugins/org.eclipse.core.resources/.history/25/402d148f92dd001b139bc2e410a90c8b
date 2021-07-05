@@ -1,0 +1,5 @@
+package chap08.section07;
+
+public interface MyInterface {
+
+}

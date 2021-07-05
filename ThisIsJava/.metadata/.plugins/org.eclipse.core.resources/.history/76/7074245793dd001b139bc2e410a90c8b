@@ -1,0 +1,12 @@
+package chap08.section07;
+
+public class DefaultMethodExample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		MyInterface mi1 = new MyClassA();
+		mi1.method1();
+		mi1.method2();
+	}
+
+}

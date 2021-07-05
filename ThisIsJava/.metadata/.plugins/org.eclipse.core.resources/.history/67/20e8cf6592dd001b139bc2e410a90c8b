@@ -1,0 +1,23 @@
+package chap08.section06;
+
+public class Example {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		ImplementationC impl = new ImplementationC();
+		
+		InterfaceA ia = impl;
+		ia.methodA();
+		System.out.println();
+		
+		InterfaceB ib = impl;
+		ia.methodB();
+		System.out.println();
+		
+		InterfaceA ia = impl;
+		ia.methodA();
+		System.out.println();
+		
+	}
+
+}

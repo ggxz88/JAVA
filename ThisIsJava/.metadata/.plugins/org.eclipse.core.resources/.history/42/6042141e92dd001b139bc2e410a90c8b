@@ -1,0 +1,7 @@
+package chap08.section06;
+
+public class ImplementationC {
+	public void methodA() {
+		System.out.println("ImplementationC-methodA() ½ÇÇà");
+	}
+}
