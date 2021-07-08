@@ -1,0 +1,7 @@
+package chap09.section02;
+
+class A {
+	A() {
+		System.out.println("A °´Ã¼°¡ »ý¼ºµÊ")
+	}
+}
