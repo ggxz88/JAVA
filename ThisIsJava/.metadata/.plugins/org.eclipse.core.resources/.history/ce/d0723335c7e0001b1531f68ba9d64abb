@@ -1,0 +1,15 @@
+package chap09.section05;
+
+public class Anonymous2 {
+	//필드 초기값으로 대입
+	RemoteControl field = new RemoteControl() {
+		@Override
+		public void turnOn() {
+			System.out.println("TV를 켭니다.");
+		}
+		@Override
+		publci void turnOff() {
+			System.out.println("TV를 끕니다.")
+		}
+	}
+}

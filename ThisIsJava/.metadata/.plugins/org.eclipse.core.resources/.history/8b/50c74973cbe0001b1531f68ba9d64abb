@@ -1,0 +1,13 @@
+package chap09.example;
+
+public class Anonymous {
+	Vehicle field = 
+			
+	void method1() {
+		
+	}
+	
+	void method2(Vehicle v) {
+		v.run();
+	}
+}

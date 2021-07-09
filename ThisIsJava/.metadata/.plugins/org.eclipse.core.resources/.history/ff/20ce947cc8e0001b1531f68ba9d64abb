@@ -1,0 +1,6 @@
+package chap09.section05;
+
+public class Window {
+	Button button1 = new Button();
+	Button button2 = new Button();
+}

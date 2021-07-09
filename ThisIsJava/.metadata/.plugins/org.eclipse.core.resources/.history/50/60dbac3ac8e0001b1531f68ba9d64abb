@@ -1,0 +1,9 @@
+package chap09.section05;
+
+public class Button {
+
+	
+	interface OnClickListener {
+		void onClick();
+	}
+}

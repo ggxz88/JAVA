@@ -1,0 +1,18 @@
+package chap09.section05;
+
+public class NestedClassExample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Car myCar = new Car();
+		
+		Car.Tire tire = new Car.Tire() {
+			
+		};
+		
+		Car.Engine engine = new Car.Engine() {
+			
+		};
+	}
+
+}
