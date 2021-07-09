@@ -1,0 +1,9 @@
+package chap09.section04;
+
+public class Button {
+	OnClickListener listener;
+	
+	void setOnClickListener(OnClickListener listener) {
+		this.listener = listener;
+	}
+}

@@ -1,0 +1,6 @@
+package chap09.section03;
+
+public class A {
+	B field1 = new B();
+	C field2 = new C();
+}

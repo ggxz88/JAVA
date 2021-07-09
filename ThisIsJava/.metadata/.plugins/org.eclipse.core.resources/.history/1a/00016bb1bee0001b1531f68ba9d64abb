@@ -1,0 +1,15 @@
+package chap09.section03;
+
+public class Outter {
+	// ¿⁄πŸ 7 ¿Ã¿‹
+	public void method1(final int arg) {
+		final int localVariable = 1;
+		//arg = 100;
+		//localVariable = 100;
+		class Inner {
+			public void method1() {
+				int result = arg + localVariable;
+			}
+		}
+	}
+}
