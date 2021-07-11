@@ -1,0 +1,11 @@
+package chap10.section02;
+
+public class NumberFormatException {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String data1 = "100";
+		String data2 = "a100";
+	}
+
+}

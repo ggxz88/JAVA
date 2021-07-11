@@ -18,4 +18,8 @@
 <fullyQualifiedTypeName name="chap08.section03.Audio"/>
 <fullyQualifiedTypeName name="chap09.section02.A.B"/>
 <fullyQualifiedTypeName name="chap09.section02.A.C"/>
+<fullyQualifiedTypeName name="chap09.section04.Button.OnClickListener"/>
+<fullyQualifiedTypeName name="chap09.section05.Button.OnClickListener"/>
+<fullyQualifiedTypeName name="chap09.section05.Car.Tire"/>
+<fullyQualifiedTypeName name="chap09.section05.Car.Engine"/>
 </qualifiedTypeNameHistroy>

@@ -1,0 +1,14 @@
+package chap10.section04;
+
+public class CatchByExceptionKindExample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		try {
+			String data1 = args[0];
+			String data2 = arg2[1];
+			
+		}
+	}
+
+}
