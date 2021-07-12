@@ -1,0 +1,5 @@
+package chap10.section05;
+
+public class FileInputStream implements AutoCloseable {
+	
+}

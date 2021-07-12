@@ -1,0 +1,11 @@
+package chap10.section07;
+
+public class Account {
+	private long balance;
+	
+	public Account() {}
+	
+	public long getBalance() {
+		return balance;
+	}
+}
