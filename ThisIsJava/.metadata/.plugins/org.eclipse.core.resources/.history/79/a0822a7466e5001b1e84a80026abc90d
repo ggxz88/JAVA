@@ -1,0 +1,8 @@
+package chap11.section03;
+
+public class Member3 implements Cloneable {
+	public String name;
+	public int age;
+	public int[] scores;
+	public Car car;
+}

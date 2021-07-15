@@ -1,0 +1,29 @@
+package chap11.section03;
+
+import java.util.Arrays;
+
+public class Member3 implements Cloneable {
+	public String name;
+	public int age;
+	public int[] scores;
+	public Car car;
+	
+	public Member3(String name, int age, int[] scores, Car car) {
+		this.name = name;
+		this.age = age;
+		this.scores = scores;
+		this.car = car;
+	}
+	
+	@Override
+	protected Object clone() throws CloneNotSupportedException {
+		// æË¿∫ ∫πªÁ
+		Member3 cloned = (Member3) super.clone();
+		// scores ±Ì¿∫ ∫π¿Á
+		cloned.scores = Arrays.copyOf(this.scores, this.scores.length);
+		// car ±Ì¿∫ ∫π¡¶
+		cloned.car = new Car(this.car.model);
+		// ±Ì¿∫ ∫π¡¶µ» Member3 ∞¥√º∏¶ ∏Æ≈œ
+		return cloned;
+	}
+}

@@ -1,0 +1,10 @@
+package chap11.section03;
+
+public class MemberExample2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Member2 original = new Member2("blue", "ȫ�浿", "12345", 25, true)
+	}
+
+}

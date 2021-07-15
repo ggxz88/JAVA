@@ -1,0 +1,21 @@
+package chap11.section03;
+
+public class MemberExample2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Member2 original = new Member2("blue", "홍길동", "12345", 25, true);
+		
+		Member2 cloned = original.getMember();
+		cloned.password = "67890";
+		
+		System.out.println("[복제 객체의 필드값]");
+		System.out.println(cloned.id);
+		System.out.println(cloned.name);
+		System.out.println(cloned.password);
+		System.out.println(cloned.age);
+		System.out.println(cloned.adult);
+		
+	}
+
+}
