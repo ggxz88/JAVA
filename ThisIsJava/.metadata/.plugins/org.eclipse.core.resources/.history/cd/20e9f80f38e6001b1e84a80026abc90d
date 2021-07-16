@@ -1,0 +1,8 @@
+package chap11.section04;
+
+public class StudentComparator implements Comparator<Student> {
+	@Override
+	public int compare(Student a, Student b) {
+		
+	}
+}

@@ -1,0 +1,10 @@
+package chap11.section04;
+
+public class EqualsAndDeepEqualsExample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
