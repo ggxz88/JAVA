@@ -1,0 +1,21 @@
+package chap11.section05;
+
+public class GcExample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Employee emp;
+		
+		emp = new Employee(1);
+	}
+
+}
+
+class Employee {
+	public int eno;
+	
+	public Employee(int eno) {
+		this.eno = eno;
+		System.out.println("Employee(" + eno + ") ㅇ; 메모리에 생성됨");
+	}
+}

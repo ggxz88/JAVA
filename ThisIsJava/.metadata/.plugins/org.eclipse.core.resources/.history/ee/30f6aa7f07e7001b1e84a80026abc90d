@@ -1,0 +1,17 @@
+package chap11.section05;
+
+public class GetPropertyExample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String osName = System.getProperty("os.name");
+		String userName = System.getProperty("user.name");
+		String userHome = System.getProperty("user.home");
+		
+		System.out.println("운영체제 이름: " + osName);
+		System.out.println("사용자 이름: " + userName);
+		System.out.println("사용자 홈 디렉토리: " + userHome);
+		
+	}
+
+}

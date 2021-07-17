@@ -1,0 +1,10 @@
+package chap11.section05;
+
+public class GetPropertyExample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
