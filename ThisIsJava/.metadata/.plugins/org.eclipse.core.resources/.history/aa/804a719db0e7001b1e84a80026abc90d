@@ -1,0 +1,16 @@
+package chap11.section07;
+
+public class StringGetBytesExample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String str = "æ»≥Á«œººø‰";
+		
+		byte[] bytes1 = str.getBytes();
+		System.out.println("bytes1.length: " + bytes1.length);
+		String str1 = new String(byte1);
+		System.out.println("bytes1.length: " + bytes1.length);
+		
+	}
+
+}

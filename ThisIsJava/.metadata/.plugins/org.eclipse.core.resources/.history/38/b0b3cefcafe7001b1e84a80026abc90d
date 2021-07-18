@@ -1,0 +1,17 @@
+package chap11.section07;
+
+public class StringEqualsExample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String strVar1 = new String("±èÃ¶¼ö");
+		String strVar2 = "±èÃ¶¼ö";
+		
+		if (strVar1 == strVar2) {
+			System.out.println("°°Àº String °´Ã¼¸¦ ÂüÁ¶");
+		} else {
+			System.out.println("´Ù¸¥ String °´Ã¼¸¦ ÂüÁ¶")
+		}
+	}
+
+}

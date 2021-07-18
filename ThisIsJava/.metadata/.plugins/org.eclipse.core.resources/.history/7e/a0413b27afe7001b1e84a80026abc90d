@@ -1,0 +1,11 @@
+package chap11.section07;
+
+public class StringCharAtExample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String ssn = "010624-1230123";
+		char sex = ssn.charAt(7);
+	}
+
+}

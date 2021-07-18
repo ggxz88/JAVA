@@ -1,0 +1,12 @@
+package chap11.section07;
+
+public class StringTrimExample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String tel1 = "  02";
+		String tel2 = "123   ";
+		String tel3 = "    1234    ";
+	}
+
+}
