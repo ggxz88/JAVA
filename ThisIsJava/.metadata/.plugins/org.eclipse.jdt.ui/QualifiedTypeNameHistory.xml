@@ -10,7 +10,6 @@
 <fullyQualifiedTypeName name="java.lang.annotation.Target"/>
 <fullyQualifiedTypeName name="java.lang.annotation.Retention"/>
 <fullyQualifiedTypeName name="java.lang.annotation.ElementType"/>
-<fullyQualifiedTypeName name="java.lang.reflect.Method"/>
 <fullyQualifiedTypeName name="chap07.section06.package1.A"/>
 <fullyQualifiedTypeName name="chap08.section02.RemoteControl"/>
 <fullyQualifiedTypeName name="chap08.section03.Television"/>
@@ -22,4 +21,16 @@
 <fullyQualifiedTypeName name="chap09.section05.Car.Tire"/>
 <fullyQualifiedTypeName name="chap09.section05.Car.Engine"/>
 <fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="java.util.HashMap"/>
+<fullyQualifiedTypeName name="java.util.Date"/>
+<fullyQualifiedTypeName name="java.util.Arrays"/>
+<fullyQualifiedTypeName name="java.util.Comparator"/>
+<fullyQualifiedTypeName name="java.util.Objects"/>
+<fullyQualifiedTypeName name="java.util.Properties"/>
+<fullyQualifiedTypeName name="java.util.Set"/>
+<fullyQualifiedTypeName name="chap11.section03.Car"/>
+<fullyQualifiedTypeName name="java.lang.reflect.Constructor"/>
+<fullyQualifiedTypeName name="java.lang.reflect.Field"/>
+<fullyQualifiedTypeName name="java.lang.reflect.Method"/>
+<fullyQualifiedTypeName name="java.io.UnsupportedEncodingException"/>
 </qualifiedTypeNameHistroy>

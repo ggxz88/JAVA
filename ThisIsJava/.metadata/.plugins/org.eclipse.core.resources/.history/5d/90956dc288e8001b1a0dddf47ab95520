@@ -1,0 +1,10 @@
+package chap11.section08;
+
+public class StringSplitExample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String text = "È«±æµ¿&ÀÌ¼öÈ«, ¹Ú¿¬¼ö, ±èÀÚ¹Ù-ÃÖ¸íÈ¥"
+	}
+
+}

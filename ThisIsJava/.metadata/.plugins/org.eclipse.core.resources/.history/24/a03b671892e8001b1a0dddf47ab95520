@@ -1,0 +1,15 @@
+package chap11.section11;
+
+import java.util.Arrays;
+
+public class ArrayCopyExample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		char[] arr1 = {'J', 'A', 'V', 'A'};
+		
+		//¹æ¹ý1
+		char[] arr2 = Arrays.copyOf(arr1, arr1.length)
+	}
+
+}

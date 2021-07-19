@@ -1,0 +1,16 @@
+package chap11.section11;
+
+import java.util.Arrays;
+
+public class SearchExample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		// 기본 타입값 선택
+		int[] scores = { 99, 97, 98 };
+		Arrays.sort(scores);
+		int index = Arrays.binarySearch(scores, 99);
+		System.out.println("찾은 인덱스: " + index);
+	}
+
+}
