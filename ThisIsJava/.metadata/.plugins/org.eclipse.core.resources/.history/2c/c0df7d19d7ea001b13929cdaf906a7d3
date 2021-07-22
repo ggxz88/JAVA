@@ -1,0 +1,14 @@
+package chap11.section15;
+
+public class MessageFormatExample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String id = "java";
+		String name = "신용권";
+		String tel = "010-123-5678";
+		
+		Strign text = "회원 ID: {0} \n회원 이름: {1} \n회원 전화: {2}"
+	}
+
+}

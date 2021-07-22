@@ -1,0 +1,12 @@
+package chap11.section16;
+
+import java.time.LocalDateTime;
+
+public class DateTimeOperationExample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		LocalDateTime now = LocalDateTime.now();
+	}
+
+}

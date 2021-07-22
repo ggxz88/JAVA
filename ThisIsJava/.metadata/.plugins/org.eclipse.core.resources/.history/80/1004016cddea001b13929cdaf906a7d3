@@ -1,0 +1,23 @@
+package chap11.section16;
+
+import java.time.LocalDateTime;
+
+public class DateTimeInfoExample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		LocalDateTime now = LocalDateTime.now();
+		System.out.println(now);
+		
+		String strDateTime = now.getYear() + "년 ";
+		strDateTime += now.getMonthValue() + "월 ";
+		strDateTime += now.getMonthValue() + "일 ";
+		strDateTime += now.getMonthValue() + " ";
+		strDateTime += now.getMonthValue() + "시 ";
+		strDateTime += now.getMonthValue() + "분 ";
+		strDateTime += now.getMonthValue() + "초 ";
+		strDateTime += now.getMonthValue() + "나노초";
+		
+	}
+
+}
