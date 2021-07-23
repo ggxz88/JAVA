@@ -1,0 +1,25 @@
+package chap11.section16;
+
+import java.time.LocalDateTime;
+
+public class DateTimeChangeExample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		LocalDateTime now = LocalDateTime.now();
+		System.out.println("현재: " + now);
+		
+		LocalDateTime targetDatetime = null;
+		
+		//직접 변경
+		targetDatetime = now
+			.withYear(2024)
+			.withMonth(10)
+			.withDayOfMonth(5)
+			.withHour(13)
+			.withMinute(30)
+			.withSecond(20);
+		System.out.println("직접 변경: " + targetDateTime);
+	}
+
+}

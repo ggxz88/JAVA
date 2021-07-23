@@ -1,0 +1,15 @@
+package chap11.section16;
+
+import java.time.LocalDateTime;
+
+public class DateTimeChangeExample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		LocalDateTime now = LocalDateTime.now();
+		System.out.println("ÇöÀç: " + now);
+		
+		LocalDateTime targetDatetime = null;
+	}
+
+}
