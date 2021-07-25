@@ -1,0 +1,9 @@
+package chap12.section04;
+
+public class Calculator {
+	private int memory;
+	
+	public int getMemory() {
+		
+	}
+}

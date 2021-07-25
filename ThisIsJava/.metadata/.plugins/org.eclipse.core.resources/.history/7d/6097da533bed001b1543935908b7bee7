@@ -1,0 +1,9 @@
+package chap12.section04;
+
+public class User1 {
+	 private Calculator calculator;
+	 
+	 public void setCalculator(Calculator calculator) {
+		 this.setName("User1");
+	 }
+}

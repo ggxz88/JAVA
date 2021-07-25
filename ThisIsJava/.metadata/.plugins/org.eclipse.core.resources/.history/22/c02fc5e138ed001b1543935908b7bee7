@@ -1,0 +1,10 @@
+package chap12.section03;
+
+public class PriorityExample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
