@@ -1,0 +1,10 @@
+package chap12.section06;
+
+public class WaitNotifyExample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		WorkObject sharedObject = new workObject();
+	}
+
+}

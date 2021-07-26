@@ -1,0 +1,9 @@
+package chap12.section05;
+
+public class StatePrintThread extends Thread {
+	private Thread targetThread;
+	
+	public StatePrintThread(Thread targetThread) {
+		this.targetThread = targetThread;
+	}
+}

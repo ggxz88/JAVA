@@ -1,0 +1,12 @@
+package chap12.section05;
+
+import java.awt.Toolkit;
+
+public class SleepExample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Toolkit toolkit = Toolkit.getDefaultToolkit();
+	}
+
+}
