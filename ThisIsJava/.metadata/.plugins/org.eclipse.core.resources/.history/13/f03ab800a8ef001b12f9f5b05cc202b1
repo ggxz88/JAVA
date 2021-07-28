@@ -1,0 +1,12 @@
+package chap12.section06;
+
+public class StopFlagExample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		PrintThread1 printThread = new PrintThread1();
+		printThread.start();
+		
+	}
+
+}

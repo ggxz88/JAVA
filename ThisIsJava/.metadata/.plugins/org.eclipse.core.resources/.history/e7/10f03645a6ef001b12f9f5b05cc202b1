@@ -1,0 +1,9 @@
+package chap12.section06;
+
+public class ConsumerThread extends Thread {
+	private DataBox dataBox;
+	
+	public ConsumerThread(DataBos dataBox) {
+		this.dataBox = dataBox;
+	}
+}
