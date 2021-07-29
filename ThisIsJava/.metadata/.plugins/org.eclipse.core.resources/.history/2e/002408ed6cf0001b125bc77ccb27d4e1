@@ -1,0 +1,15 @@
+package chap12.section08;
+
+import chap12.section07.AutoSaveThread;
+
+public class ThreadInfoExample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		AutoSaveThread autoSaveThread = new AutoSaveThread();
+		autoSaveThread.setName("AutoSaveThread");
+		autoSaveThread.setDaemon(true);
+		autoSaveThread.start();
+	}
+
+}

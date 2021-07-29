@@ -1,0 +1,10 @@
+package chap12.section08;
+
+public class ThreadInfoExample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
