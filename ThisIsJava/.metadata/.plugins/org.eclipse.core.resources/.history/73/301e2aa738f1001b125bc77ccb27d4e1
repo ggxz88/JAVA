@@ -1,0 +1,29 @@
+package chap12.section09;
+
+import java.util.concurrent.Callable;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
+
+public class ResultByCallableExample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		ExecutorService executorService = Executors.newFixedThreadPool(
+			Runtime.getRuntime().availableProcessors()
+		);
+		
+		System.out.println("[작업 처리 요청]");
+		Callable<Integer> task = new Callable<Integer>() {
+			@Override
+			public Integer call() throws Exception {
+				int sum = 0;
+				for (int i = 0; i <= 10; i++) {
+					sum += i;
+				}
+				return sum;
+			}
+		};
+		Future<Integer> future = executorService.submit(task);
+	}
+
+}

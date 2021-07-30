@@ -1,0 +1,10 @@
+package chap12.section09;
+
+public class ResultByRunnableExample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

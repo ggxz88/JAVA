@@ -1,0 +1,34 @@
+package chap12.section09;
+
+import java.nio.channels.CompletionHandler;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
+
+public class CallbackExample {
+	private ExecutorService executorService;
+	
+	public CallbackExample() {
+		executorService = Executors.newFixedThreadPool(
+			Runtime.getRuntime().availableProcessors()
+		);
+	}
+	
+	private CompletionHandler<Integer, Void> callback = 
+		new CompletionHandler<Integer, Void>() {
+			@Override
+			public void completed(Integer result, Void attachment) {
+				System.out.println("completed() 실행: " + result);
+			}
+			
+			@Override
+			public void failed(Throwable exc, Void attachment) {
+				System.out.println("failed() 실행: " + exc.toString());
+			}
+		}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}
