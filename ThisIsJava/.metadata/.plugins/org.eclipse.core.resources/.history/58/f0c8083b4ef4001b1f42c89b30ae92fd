@@ -1,0 +1,18 @@
+package chap13.section03;
+
+public class ProductExample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Product<Tv, String> product1 = new Product<Tv, String>();
+		product1.setKind(new Tv());
+		Tv tv = product1.getKind();
+		String tvModel = product1.getModel();
+		
+		Product<Car, String> product2 = new Product<Car, String>();
+		product1.setKind(new Tv());
+		Tv tv = product1.getKind();
+		String tvModel = product1.getModel();	
+	}
+
+}

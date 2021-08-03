@@ -1,0 +1,10 @@
+package chap13.section04;
+
+public class BoxingMethodExample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		GenericBox<Integer> box1 = Util.<Integer>Boxing(100);
+	}
+
+}

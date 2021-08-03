@@ -1,0 +1,12 @@
+package chap13.section04;
+
+public class CompareMethodExample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Pair<Integer, String> p1 = new Pair<Integer, String>(1, "사과");
+		Pair<Integer, String> p2 = new Pair<Integer, String>(1, "사과");
+		
+	}
+
+}
