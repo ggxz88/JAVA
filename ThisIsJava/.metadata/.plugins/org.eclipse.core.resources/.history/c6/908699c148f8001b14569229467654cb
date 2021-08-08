@@ -1,0 +1,15 @@
+package chap13.section06;
+
+public class Student extends Person {
+	private String student;
+	
+	public String getStudent() {
+		return this.student;
+	}
+
+	public Student(String student) {
+		// TODO Auto-generated constructor stub
+		super(student);
+	}
+
+}

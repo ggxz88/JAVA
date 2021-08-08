@@ -1,0 +1,15 @@
+package chap13.section06;
+
+public class Person {
+	public String person;
+	
+	public Person(String person) {
+		// TODO Auto-generated constructor stub
+		this.person = person;
+	}
+	
+	public void print() {
+		System.out.print(person);
+	}
+
+}

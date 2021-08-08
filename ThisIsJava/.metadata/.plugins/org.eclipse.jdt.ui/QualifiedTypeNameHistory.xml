@@ -56,4 +56,6 @@
 <fullyQualifiedTypeName name="java.time.format.DateTimeFormatter"/>
 <fullyQualifiedTypeName name="java.lang.Thread.State"/>
 <fullyQualifiedTypeName name="java.awt.Toolkit"/>
+<fullyQualifiedTypeName name="chap13.section02.Box"/>
+<fullyQualifiedTypeName name="chap13.section02.GenericBox"/>
 </qualifiedTypeNameHistroy>

@@ -1,0 +1,10 @@
+package chap13.section06;
+
+public class Person {
+	String person
+
+	public Person(String string) {
+		// TODO Auto-generated constructor stub
+	}
+
+}

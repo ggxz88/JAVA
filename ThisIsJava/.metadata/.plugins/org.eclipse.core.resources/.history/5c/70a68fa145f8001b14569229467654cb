@@ -1,0 +1,15 @@
+package chap13.section06;
+
+public class Person {
+	String person;
+	
+	public String getPerson() {
+		return this.personl
+	}
+	
+	public Person(String person) {
+		// TODO Auto-generated constructor stub
+		this.person = person;
+	}
+
+}

@@ -1,0 +1,11 @@
+package chap13.section06;
+
+public class Course<T> {
+	private String name;
+	private T[] students;
+	
+	publci Course(String name, int capacity) {
+		this.name = name;
+		students = (T[]) (new Object[capacity]);
+	}
+}

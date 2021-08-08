@@ -1,0 +1,15 @@
+package chap13.section06;
+
+public class Worker extends Person {
+	String worker;
+
+	@Override
+	public Worker(String worker) {
+		// TODO Auto-generated constructor stub
+		super();
+		this.worker = worker;
+	}
+
+	
+
+}

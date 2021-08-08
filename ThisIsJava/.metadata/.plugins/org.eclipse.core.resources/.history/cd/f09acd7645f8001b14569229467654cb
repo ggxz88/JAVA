@@ -1,0 +1,10 @@
+package chap13.section07;
+
+public class Product<T, M> {
+	private T kind;
+	private M model;
+	
+	public T getLKind() {
+		return this.kind;
+	}
+}

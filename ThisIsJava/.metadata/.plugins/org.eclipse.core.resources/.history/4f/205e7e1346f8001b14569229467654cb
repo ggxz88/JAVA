@@ -1,0 +1,8 @@
+package chap13.section07;
+
+public class ChildProduct<T, M, C> extends Product<T, M> {
+	private C company;
+	publci C getCompany() {
+		return this.company
+	}
+}
