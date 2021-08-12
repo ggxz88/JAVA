@@ -1,0 +1,7 @@
+package chap14.section04;
+
+public class UsingLocalVariable {
+	void method(int arg) {	//arg´Â final Åª¼ºÀ» °¡Áü
+		int localVar = 40;
+	}
+}

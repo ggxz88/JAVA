@@ -1,0 +1,10 @@
+package chap14.section03;
+
+public class MyFuntionalInterfaceExample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		MyFuntionalInterface fi;
+	}
+
+}
