@@ -58,4 +58,5 @@
 <fullyQualifiedTypeName name="chap13.section02.Box"/>
 <fullyQualifiedTypeName name="chap13.section02.GenericBox"/>
 <fullyQualifiedTypeName name="java.util.Arrays"/>
+<fullyQualifiedTypeName name="chap14.section04.UsingThis.Inner"/>
 </qualifiedTypeNameHistroy>

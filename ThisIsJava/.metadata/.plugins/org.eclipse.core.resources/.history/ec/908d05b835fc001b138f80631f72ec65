@@ -1,0 +1,10 @@
+package chap14.section05;
+
+public class ConsumerExample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Consumer<String> consumer = t -> System.out.println(t + "8");
+	}
+
+}
