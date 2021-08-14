@@ -1,0 +1,14 @@
+package chap14.section05;
+
+import java.util.function.Predicate;
+
+public class PredicateIsEqualExample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Predicate<String> predicate;
+		
+		predicate = Predicate.isEqual(null);
+	}
+
+}

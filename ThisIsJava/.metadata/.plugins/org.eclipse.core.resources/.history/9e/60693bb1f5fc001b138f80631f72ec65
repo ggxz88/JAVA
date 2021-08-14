@@ -1,0 +1,13 @@
+package chap14.section05;
+
+import java.util.function.BinaryOperator;
+
+public class OperatorMinByMaxByExample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		BinaryOperator<Fruit> binaryOperator;
+		Fruit fruit;
+	}
+
+}

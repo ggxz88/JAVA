@@ -1,0 +1,12 @@
+package chap14.section05;
+
+public class ConsumerAndThenExample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Consumer<Member> consumerA = (m) -> {
+			System.out.println("consumerA: " + m.getName());
+		}
+	}
+
+}

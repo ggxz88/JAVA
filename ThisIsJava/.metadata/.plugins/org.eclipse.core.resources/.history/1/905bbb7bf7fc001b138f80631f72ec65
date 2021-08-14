@@ -1,0 +1,12 @@
+package chap14.section06;
+
+import java.util.function.IntBinaryOperator;
+
+public class MethodReferencesExample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		IntBinaryOperator operator;
+	}
+
+}

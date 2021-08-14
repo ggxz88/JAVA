@@ -1,0 +1,19 @@
+package chap14.section05;
+
+import java.util.function.Function;
+
+public class FunctionAndThenComposeExample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Function<Member, Address> functionA;
+		Function<Address, String> functionB;
+		Function<Member, String> functionC;
+		String city;
+		
+		functionA = (m) -> m.getAddress();
+		functionB = (a) -> a.getCity(); 
+		
+	}
+
+}
