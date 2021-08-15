@@ -1,0 +1,18 @@
+package chap12.example;
+
+public class ThreadExample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Thread thread1 = new MovieThread();
+		thread1.start();
+		
+		Thread thread2 = new Thread(new Runnable() {
+			public void run() {
+				
+			}
+		});
+		thread2.start();
+	}
+
+}

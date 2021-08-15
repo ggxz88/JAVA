@@ -1,0 +1,15 @@
+package chap13.example;
+
+public class ContainerExample2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Container2<String, String> container1 = new Container2<String, String>();
+		container1.set("È«±æµ¿", "µµÀû");
+		String name1 = container1.getKey();
+		String job = container1.getValue();
+		
+		
+	}
+
+}

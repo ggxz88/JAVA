@@ -1,0 +1,5 @@
+package chap12.example;
+
+public class MovieThread3 extends Thread {
+
+}

@@ -1,0 +1,7 @@
+package chap12.example;
+
+public class MovieThread implements Runnable {
+
+	
+
+}

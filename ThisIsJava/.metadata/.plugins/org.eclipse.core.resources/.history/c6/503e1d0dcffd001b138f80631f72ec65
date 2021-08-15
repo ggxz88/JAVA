@@ -1,0 +1,10 @@
+package chap13.example;
+
+public class Util {
+
+	public static <T extends Pair> getValue(Pair<String, Integer> pair, String string) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}
