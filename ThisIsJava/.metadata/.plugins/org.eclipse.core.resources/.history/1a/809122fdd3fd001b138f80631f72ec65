@@ -1,0 +1,19 @@
+package chap14.example;
+
+import java.util.function.IntBinaryOperator;
+
+public class LambdaExample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		private static int[] scores = { 10, 50, 3 };
+		
+		public static int maxOrMin(IntBinaryOperator operator) {
+			int result = scroes[0];
+			for(itn score : scores) {
+				result = operator.applyAsInt(result, score);
+			}
+		}
+	}
+
+}

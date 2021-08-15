@@ -1,0 +1,9 @@
+package chap14.example;
+
+public class Student {
+	private String name;
+	private int englishScore;
+	private int mathScore;
+	
+	
+}
