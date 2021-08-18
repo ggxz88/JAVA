@@ -1,0 +1,7 @@
+package chap15.section02;
+
+public class Board {
+	String subject;
+	String content;
+	String writer;
+}
