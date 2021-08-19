@@ -1,0 +1,13 @@
+package chap15.section04;
+
+import java.util.Properties;
+
+public class PropertiesExample {
+
+	public static void main(String[] args) throws Exception {
+		// TODO Auto-generated method stub
+		Properties properties = new Properties();
+		String path = PropertiesExample.class
+	}
+
+}

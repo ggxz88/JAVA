@@ -1,0 +1,19 @@
+package chap15.section04;
+
+import java.util.Hashtable;
+import java.util.Map;
+
+public class HashtableExample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Map<String, String> map = new Hashtable<String, String>();
+		
+		map.put("spring", "12");
+		map.put("summer", "123");
+		map.put("fall", "1234");
+		map.put("winter", "12345");
+		
+	}
+
+}
