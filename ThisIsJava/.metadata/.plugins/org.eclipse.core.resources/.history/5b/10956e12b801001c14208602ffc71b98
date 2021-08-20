@@ -1,0 +1,10 @@
+package chap15.section05;
+
+public class ComparatorExample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		TreeSet<Fruit> treeSet = new TreeSet<Fruit>();
+	}
+
+}

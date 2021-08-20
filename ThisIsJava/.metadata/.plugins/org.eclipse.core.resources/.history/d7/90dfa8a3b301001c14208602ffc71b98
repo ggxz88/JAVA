@@ -1,0 +1,13 @@
+package chap15.section05;
+
+import java.util.TreeMap;
+
+public class TreeMapExample1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		TreeMap<Integer, String> scores = new TreeMap<Integer, String>();
+		scores.put(new Integer(87), "ȫ�浿")
+	}
+
+}
