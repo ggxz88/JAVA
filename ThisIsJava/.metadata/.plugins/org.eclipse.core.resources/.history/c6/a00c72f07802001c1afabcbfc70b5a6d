@@ -1,0 +1,10 @@
+package chap15.example;
+
+public class MapExample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Map<String, Integer> map = new HashMap<String, Integer>();
+	}
+
+}

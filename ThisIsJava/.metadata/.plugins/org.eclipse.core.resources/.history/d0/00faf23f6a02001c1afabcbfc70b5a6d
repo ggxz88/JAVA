@@ -1,0 +1,10 @@
+package chap15.section06;
+
+public class StackExample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Stack<Coin> coinBox = new Stck<Coin>();
+	}
+
+}

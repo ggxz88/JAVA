@@ -1,0 +1,14 @@
+package chap15.example;
+
+import java.util.HashSet;
+import java.util.Set;
+
+public class HashSetExample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Set<Student> set = new HashSet<Student>();
+		
+	}
+
+}

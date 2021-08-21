@@ -1,0 +1,10 @@
+package chap15.section06;
+
+public class QueueExample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Queue<Message> messageQueue = new LinkedList<Message>();
+	}
+
+}

@@ -1,0 +1,8 @@
+package chap15.example;
+
+public class Student {
+	public int studentNum;
+	public String name;
+	
+	
+}

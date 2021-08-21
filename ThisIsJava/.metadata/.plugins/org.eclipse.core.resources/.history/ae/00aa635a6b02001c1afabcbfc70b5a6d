@@ -1,0 +1,18 @@
+package chap15.section06;
+
+import java.util.LinkedList;
+import java.util.Queue;
+
+public class QueueExample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Queue<Message> messageQueue = new LinkedList<Message>();
+		
+		messageQueue.offer(new Message("sendMail", "È«±æµ¿"));
+		messageQueue.offer(new Message("sendSNS", "½Å¿ë±Ç"));
+		messageQueue.offer(new Message("sendKakaotalk", "È«µÎ²²"));
+		
+	}
+
+}

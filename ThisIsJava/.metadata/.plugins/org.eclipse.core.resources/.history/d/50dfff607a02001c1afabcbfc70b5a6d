@@ -1,0 +1,16 @@
+package chap15.example;
+
+import java.util.TreeSet;
+
+public class TreeSetExample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		TreeSet<Student> treeSet = new TreeSet<Student>();
+		treeSet.add(new Student2("blue", 96));
+		treeSet.add(new Student2("hong", 96));
+		treeSet.add(new Student2("white", 96));
+		
+	}
+
+}

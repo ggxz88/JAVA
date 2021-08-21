@@ -1,0 +1,17 @@
+package chap15.example;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class MapExample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Map<String, Integer> map = new HashMap<String, Integer>();
+		map.put("blue", 96);
+		map.put("hong", 86);
+		map.put("shite", 92);
+		
+	}
+
+}
