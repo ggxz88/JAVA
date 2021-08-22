@@ -1,0 +1,10 @@
+package chap16.section02;
+
+public class FromArrayExample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String[] strArray = { "È«±æµ¿", "½Å¿ë±Ç", "±èÀÚ¹Ù" };
+	}
+
+}

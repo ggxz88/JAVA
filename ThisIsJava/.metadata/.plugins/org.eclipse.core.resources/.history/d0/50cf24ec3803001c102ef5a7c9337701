@@ -1,0 +1,13 @@
+package chap16.section02;
+
+import java.util.Arrays;
+
+public class FromArrayExample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String[] strArray = { "È«±æµ¿", "½Å¿ë±Ç", "±èÀÚ¹Ù" };
+		Stream<String> strStream = Arrays.stream(strArray)
+	}
+
+}

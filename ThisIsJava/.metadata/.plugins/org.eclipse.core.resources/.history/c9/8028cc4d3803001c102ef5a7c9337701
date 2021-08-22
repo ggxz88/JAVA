@@ -1,0 +1,10 @@
+package chap16.section02;
+
+public class FromCollectionExample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		List<Student> studentList
+	}
+
+}

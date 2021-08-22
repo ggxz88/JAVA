@@ -1,0 +1,12 @@
+package chap16.section01;
+
+import java.util.Arrays;
+
+public class IteratorVsStreamExample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		List<String> list = Arrays.asList("È«±æµ¿", "½Å¿ë±Ç", "±èÀÚ¹Ù");
+	}
+
+}

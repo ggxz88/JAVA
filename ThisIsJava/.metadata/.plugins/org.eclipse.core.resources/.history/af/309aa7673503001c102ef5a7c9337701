@@ -1,0 +1,14 @@
+package chap16.section01;
+
+import java.util.Arrays;
+
+public class MapAndReduceExample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		List<Student> studentList = Arrays.asList(
+				
+		);
+	}
+
+}

@@ -1,0 +1,14 @@
+package chap16.section01;
+
+import java.util.Arrays;
+
+public class ParallelExample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		List<String> list = Arrays.asList(
+			"홍길동", "신용권", "김자바", "람다식", "임꺽정"	
+		);
+	}
+
+}
