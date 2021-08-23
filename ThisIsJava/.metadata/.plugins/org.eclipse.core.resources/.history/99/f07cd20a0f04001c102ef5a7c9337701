@@ -1,0 +1,12 @@
+package chap16.section05;
+
+import java.util.Arrays;
+
+public class FlatMapExample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		List<String> inputList1 = Arrays.asList("java8 lambda", "stream mapping");
+	}
+
+}

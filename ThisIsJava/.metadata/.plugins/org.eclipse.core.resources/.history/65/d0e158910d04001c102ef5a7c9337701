@@ -1,0 +1,12 @@
+package chap16.section03;
+
+import java.util.Arrays;
+
+public class FilteringExample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		List<String> names = Arrays.asList("È«±æµ¿", "±è±è±è", "¹Ú¹Ú¹Ú", "ÀÌÀÌÀÌ", "ÃÖÃÖÃÖ");
+	}
+
+}

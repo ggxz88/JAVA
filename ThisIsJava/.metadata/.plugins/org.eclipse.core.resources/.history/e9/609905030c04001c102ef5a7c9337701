@@ -1,0 +1,12 @@
+package chap16.section03;
+
+public class Member {
+	public static int MALE = 0;
+	public static int FEMALE = 1;
+	
+	private String name;
+	private int sex;
+	private int age;
+	
+	
+}
