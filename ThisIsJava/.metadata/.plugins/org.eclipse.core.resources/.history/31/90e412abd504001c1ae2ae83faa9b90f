@@ -1,0 +1,6 @@
+package chap16.section06;
+
+public class Student implements Comparable<Student> {
+	private String name;
+	private int scorel;
+}
