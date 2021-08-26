@@ -1,0 +1,10 @@
+package chap16.section10;
+
+public class ReductionExample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,10 @@
+package chap16.section11;
+
+public class MaleStudent {
+	private List<Student> list;
+	
+	public MaleStudent() {
+		list = new ArrayList<Student>();
+		System.out.println("[" + Thread.currentThread().getName() + "] MaleStudent()");
+	}
+}
