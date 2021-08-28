@@ -1,0 +1,17 @@
+package chap16.section11;
+
+import java.util.Arrays;
+
+public class GroupingAndReductionExample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		List<Student> totalList = Arrays.asList(
+			new Student("È«±æµ¿", 10, Student.Sex.MALE),
+			new Student("±è±è±è", 10, Student.Sex.FEMALE),
+			new Student("ÀÌÀÌÀÌ", 10, Student.Sex.MALE),
+			new Student("¹Ú¹Ú¹Ú", 10, Student.Sex.FEMALE)
+		);
+	}
+
+}

@@ -1,0 +1,20 @@
+package chap16.section12;
+
+public class SequencialVsParallelExample {
+	//요소 처리
+	public static void work(int value) {
+		try {
+			Thread.sleep(100); 	//값이 작을수록 순차 처리가 빠름
+		} catch (InterruptedException e) {
+			
+		}
+	}
+	
+	//순차 처리
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

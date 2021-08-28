@@ -1,0 +1,17 @@
+package chap16.section11;
+
+import java.util.Arrays;
+
+public class GroupingByExample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		List<Student> totalList = Arrays.asList(
+			new Student("È«±æµ¿", 10, Student.Sex.MALE, Student.City.Seoul),
+			new Student("±è±è±è", 6, Student.Sex.MALE, Student.City.Pusan),
+			new Student("ÀÌÀÌÀÌ", 10, Student.Sex.MALE, Student.City.Pusan),
+			new Student("¹Ú¹Ú¹Ú", 6, Student.Sex.MALE, Student.City.Seoul)
+		);
+	}
+
+}

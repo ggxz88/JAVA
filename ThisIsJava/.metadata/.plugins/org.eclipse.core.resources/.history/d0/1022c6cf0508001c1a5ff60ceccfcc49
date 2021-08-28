@@ -1,0 +1,15 @@
+package chap16.section12;
+
+public class ArrayListVsLinkedListExample {
+	//요소 처리
+	public static void work(int value) {
+		
+	}
+	
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

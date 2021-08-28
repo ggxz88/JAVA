@@ -1,0 +1,18 @@
+package chap16.section12;
+
+public class SequencialVsParallelExample {
+	//요소 처리
+	public static void work(int value) {
+		try {
+			Thread.sleep(100);
+		} catch (InterruptedException e) {
+			
+		}
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}
