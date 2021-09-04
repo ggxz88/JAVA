@@ -1,0 +1,26 @@
+package chap16.example;
+
+public class StreamExample3 {
+	static class Member {
+		private String name;
+		private String job;
+		
+		public Member(String name, String job) {
+			this.name = name;
+			this.job = job;
+		}
+		
+		public String getName() {
+			return name;
+		}
+		
+		public Strign getJob() {
+			return job;
+		}
+	}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
