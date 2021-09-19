@@ -1,0 +1,12 @@
+package chap18.section03;
+
+public class SystemInExample2 {
+
+	public static void main(String[] args) throws Exception {
+		// TODO Auto-generated method stub
+		InputStream is = System.in;
+		
+		byte[] datas = new byte[100];
+	}
+
+}
