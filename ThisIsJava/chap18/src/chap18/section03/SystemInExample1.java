@@ -28,7 +28,6 @@ public class SystemInExample1 {
 		case '4':
 			System.out.println("예금 조회를 선택하셨습니다.");
 			break;
-			
 		}
 	}	
 

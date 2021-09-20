@@ -1,0 +1,16 @@
+package chap18.section04;
+
+import java.io.FileInputStream;
+
+public class FileOutputStreamExample {
+
+	public static void main(String[] args) throws Exception {
+		// TODO Auto-generated method stub
+		String originalFileName = "D:/Dev/ThisIsJava/chap18/src/chap18/section04/house.jpg";
+		String targetFileName = "C:/Temp/house.jpg";
+		
+		FileInputStream fis = new FileInputStream(originalFileName);
+		FileoutputStream fos = new FileOutputStream(targetFileName);
+	}
+
+}

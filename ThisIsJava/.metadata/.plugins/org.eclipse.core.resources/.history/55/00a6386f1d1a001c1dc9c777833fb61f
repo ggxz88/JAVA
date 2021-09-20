@@ -1,0 +1,12 @@
+package chap18.section04;
+
+public class FileReaderExample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		FileReader fr = new FileReader(
+			"D:/Dev/ThisIsJava/chap18/src/chap18/section04/FileInputStreamExample.java"
+		);
+	}
+
+}
