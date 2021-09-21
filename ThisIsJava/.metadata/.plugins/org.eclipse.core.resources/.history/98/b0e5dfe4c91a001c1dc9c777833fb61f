@@ -1,0 +1,11 @@
+package chap18.section05;
+
+public class BufferedReaderExample {
+
+	public static void main(String[] args) throws Exception {
+		// TODO Auto-generated method stub
+		InputStream is = System.in;
+		Reader reader = new InputStreamReader(is);
+	}
+
+}
