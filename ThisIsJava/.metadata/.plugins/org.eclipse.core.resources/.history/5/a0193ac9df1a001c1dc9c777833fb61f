@@ -1,0 +1,17 @@
+package chap18.section05;
+
+import java.io.ObjectOutputStream;
+
+public class ObjectInputOutputStreamExample {
+
+	public static void main(String[] args) throws Exception {
+		// TODO Auto-generated method stub
+		FileOutputStream fos = new FileOutputStream("C:/Temp/Object.dat");
+		ObjectOutputStream oos = new ObjectOutputStream(fos);
+		
+		oos.writeObject(new Integer(10));
+		oos.writeObject(new Double(3.14));
+		oos.writeObject(new int[] {  1, 2, 3 });
+	}
+
+}

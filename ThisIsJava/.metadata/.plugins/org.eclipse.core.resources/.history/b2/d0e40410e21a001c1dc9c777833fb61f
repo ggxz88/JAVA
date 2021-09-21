@@ -1,0 +1,16 @@
+package chap18.section05;
+
+import java.io.FileInputStream;
+import java.io.ObjectInputStream;
+
+// 역직렬화해서 복원된 필드 조사
+public class SerializableReader {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		FileInputStream fis = new FileInputStream("C:/Temp/Object.dat");
+		ObjectInputStream ois = new ObjectInputStream(fis);
+		ClassA v = (classA) ois.readObject();
+	}
+
+}

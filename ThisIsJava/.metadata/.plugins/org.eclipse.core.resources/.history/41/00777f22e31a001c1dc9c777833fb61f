@@ -1,0 +1,10 @@
+package chap18.section05;
+
+public class SerialVersionUIDExample1 {
+
+	public static void main(String[] args) throws Exception {
+		// TODO Auto-generated method stub
+		FileOutputStream fos = new FileOutputStream("C:/Temp/Object.dat";)
+	}
+
+}

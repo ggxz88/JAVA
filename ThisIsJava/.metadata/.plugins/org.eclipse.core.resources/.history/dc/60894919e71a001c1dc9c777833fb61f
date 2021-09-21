@@ -1,0 +1,7 @@
+package chap18.section05;
+
+public class Parent {
+
+	public string field1;
+
+}

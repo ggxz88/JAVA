@@ -1,0 +1,10 @@
+package chap18.section05;
+
+public class SerialVersionUIDExample2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		FileInputStream fis = new FileInputStream("C:/Temp/Object.dat");
+	}
+
+}
