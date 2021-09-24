@@ -1,0 +1,14 @@
+package chap18.section07;
+
+public class ClientExample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Socket socket = null;
+		try {
+			socket = new Socket();
+			
+		}
+	}
+
+}

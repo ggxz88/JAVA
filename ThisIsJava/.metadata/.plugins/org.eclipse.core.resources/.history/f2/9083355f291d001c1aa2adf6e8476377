@@ -1,0 +1,10 @@
+package chap18.section07;
+
+public class ServerExample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		ServerSocket serverSocket = null;
+	}
+
+}

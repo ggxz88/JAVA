@@ -1,0 +1,23 @@
+package chap18.section06;
+
+import java.net.InetAddress;
+import java.rmi.UnknownHostException;
+
+public class InetAddressExample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		try {
+			InetAddress local = InetAddress.getLocalHost();
+			System.out.println("概 哪腔磐 IP林家: " + local.getHostAddress());
+			
+			InetAddress[] iaArr = InetAddress.getAllByName("www.naver.com");
+			for (InetAddress remote : iaArr) {
+				System.out.println("www.naver.com IP林家: " + remote.getHostAddress());
+			}
+		} catch(UnknownHostException e) {
+			e.printStackTrace();
+		}
+	}
+
+}
