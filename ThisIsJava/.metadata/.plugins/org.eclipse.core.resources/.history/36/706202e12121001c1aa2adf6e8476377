@@ -1,0 +1,26 @@
+package chap19.section03;
+
+import java.nio.channels.FileChannel;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
+import java.nio.file.StandardOpenOption;
+import java.util.EnumSet;
+
+public class PerformanceExample {
+
+	public static void main(String[] args) throws Exception {
+		// TODO Auto-generated method stub
+		Path from = Paths.get("src/chap19/section03/house.jpg");
+		Path to1= Paths.get("src/chap19/section03/house2.jpg");
+		Path to2 = Paths.get("src/chap19/section03/house3.jpg");
+		
+		long size = Files.size(from);
+		
+		FileChannel fileChannel_from = FileChannel.open(from);
+		FileChannel fileChannel_to1 = FileChannel.open(to1, EnumSet.of(StandardOpenOption.CREATE, StandardOpenOption.WRITE));
+		FileChannel fileChannel_to2 = FileChannel.open(to2, EnumSet.of(StandardOpenOption.CREATE, StandardOpenOption.WRITE));
+		
+	}
+
+}

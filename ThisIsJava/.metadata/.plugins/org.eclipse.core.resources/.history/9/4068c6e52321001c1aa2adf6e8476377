@@ -1,0 +1,13 @@
+package chap19.section03;
+
+import java.nio.ByteBuffer;
+
+public class DirectBufferCapacityExample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		ByteBuffer byteBuffer = ByteBuffer.allocateDirect(100);
+		System.out.println("저장용량: " + byteBuffer.capacity() + " 바이트");
+	}
+
+}
