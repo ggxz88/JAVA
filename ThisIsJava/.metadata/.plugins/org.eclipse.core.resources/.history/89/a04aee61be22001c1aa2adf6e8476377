@@ -1,0 +1,20 @@
+package chap19.section03;
+
+import java.nio.ByteBuffer;
+
+public class CompactExample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.println("[7바이트 크기로 버퍼 생성");
+		ByteBuffer buffer = ByteBuffer.allocateDirect(7);
+		buffer.put((byte)10);
+		buffer.put((byte)11);
+		buffer.put((byte)12);
+		buffer.put((byte)13);
+		buffer.put((byte)14);
+		buffer.flip();		//데이터를 읽기 위해 위치 속성 값 변경
+		printState(buffer);
+	}
+
+}

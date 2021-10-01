@@ -1,0 +1,19 @@
+package chap19.section03;
+
+import java.nio.charset.Charset;
+
+public class ByteBufferToStringExample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Charset charset = Charset.forName("UTF-8");
+		
+		//문자열 -> 인코딩 -> ByteBuffer
+		String data = "안녕하세요";
+		ByteBuffer byteBuffer = charset.encode(data);
+		
+		//ByteBuffer -> 디코딩 -> CharBuffer -> 문자열
+		data = charset.decode(byteBuffer).toString();
+	}
+
+}

@@ -1,0 +1,16 @@
+package chap19.section03;
+
+import java.nio.ByteBuffer;
+import java.nio.IntBuffer;
+
+public class ByteBufferToIntBufferExample {
+
+	public static void main(String[] args) throws Exception {
+		// TODO Auto-generated method stub
+		//int[] - > IntBuffer -> ByteBuffer
+		int[] writeData = { 10, 20 };
+		IntBuffer writeIntBuffer = IntBuffer.wrap(writeData);
+		ByteBuffer writeByteBuffer = ByteBuffer.allocate(writeBuffer.capacity() * 4);
+	}
+
+}
